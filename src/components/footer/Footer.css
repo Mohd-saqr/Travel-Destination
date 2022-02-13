@@ -1,0 +1,19 @@
+.conFotter{
+    display: grid;
+    justify-content: center;
+    background-color: #ea4335;
+    margin: 20px;
+}
+.conFotter li{
+    display: inline-block;
+    margin-left: 20px;
+    text-align: center;
+    font-size: 26px;
+}
+.conFotter samp{
+    color: white;
+    font-size: 30px;
+}
+.conFotter a{
+    text-decoration: none;
+}
