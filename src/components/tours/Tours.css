@@ -1,0 +1,16 @@
+.Tours{
+    display: grid;
+   
+    justify-content: center;
+}
+.Tours h1{
+    color: white;
+    text-transform: uppercase;
+}
+.Tours img{
+    max-width: 1000px;
+}
+.Tours div{
+    padding: 10px;
+    margin: 10px;
+}
