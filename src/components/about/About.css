@@ -1,0 +1,9 @@
+.aboutUs h1{
+    text-align: center;
+    color: white;
+
+}
+.aboutUs div{
+    display: grid;
+    justify-content: center;
+}

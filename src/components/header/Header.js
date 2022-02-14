@@ -1,5 +1,5 @@
 import '../header/Header.css'
-
+import { Link } from 'react-router-dom';
 function Header (){
     return(
 <div className='con'>
@@ -9,9 +9,9 @@ function Header (){
 <nav className='nav'>
     
     <ul>
-        <li><a href='#'>Home</a></li>
-        <li><a href='#'>ABOUT</a></li>
-        <li><a href='#'>LOGIN</a></li>
+        <li><Link to="/">Home</Link></li>
+        {/* <li><Link to="/city/"> about the city</Link></li> */}
+        <li><Link to="/about">about us</Link></li>
     </ul>
 </nav>
 </div>
