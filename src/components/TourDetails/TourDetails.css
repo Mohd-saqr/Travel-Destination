@@ -1,0 +1,36 @@
+.cityDetails{
+    display: grid;
+    justify-content: center;
+    margin: 20px;
+    color: white;
+    
+    
+}
+.cityDetails h1{
+    font-size: 18px;
+    text-align: center;
+}
+.cityDetails a{
+    font-size: 36px;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+}
+.cityDetails a:hover{
+    color: black;
+}
+#NameCity{
+    text-transform: uppercase;
+    color: aqua;
+}
+.cityDetails img{
+    display: flex;
+    
+    max-width: 1000px;
+   
+    
+}
+.cityDetails div{
+    display: grid;
+    justify-content: center;
+}
